@@ -8,7 +8,7 @@ def insertionSort(N, arr):
         arr[j+1] = value
 
     for j in range (0,N):
-        print(arr[j])
+        print(arr[j], end=" ")
 
 N = int(input())
 arr = [int(x) for x in input().split()]
